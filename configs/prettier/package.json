@@ -1,0 +1,12 @@
+{
+  "name": "@library-codes/prettier-config",
+  "version": "0.0.1",
+  "description": "Shared Prettier config for library-codes projects.",
+  "author": "Lucas Xavier",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./index.js",
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  }
+}

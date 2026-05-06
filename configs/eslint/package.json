@@ -1,0 +1,33 @@
+{
+  "name": "@library-codes/eslint-config",
+  "version": "0.0.1",
+  "description": "This is the eslint config for the library-codes project.",
+  "author": "Lucas Xavier",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./base.js",
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./next": "./next.js"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^16.0.1",
+    "@eslint/js": "^9.0.0",
+    "@typescript-eslint/parser": "^8.59.2",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-testing-library": "^7.16.2",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "extends": "@library-codes/tsconfig-config/next",
+  "include": [".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

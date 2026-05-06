@@ -1,0 +1,12 @@
+{
+  "name": "library-codes",
+  "version": "0.0.1",
+  "description": "This is just a simple library to search and help about codes.",
+   "author": "Lucas Xavier",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "configs/*",
+    "codes"
+  ]
+}

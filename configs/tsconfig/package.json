@@ -1,0 +1,13 @@
+{
+  "name": "@library-codes/tsconfig-config",
+  "version": "0.0.1",
+  "description": "This is the tsconfig config for the library-codes project.",
+  "author": "Lucas Xavier",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./next.json",
+    "./base": "./base.json",
+    "./next": "./next.json"
+  }
+}
